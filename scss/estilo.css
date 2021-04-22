@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: white;
+  color: green;
+}
+
+nav div ul li {
+  float: left;
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav div ul li a {
+  color: green;
+  text-decoration: none;
+}
+
+.header__nav--logo {
+  width: 80px;
+}
+
+.header__nav--backcolor {
+  background-color: white;
+}
+
+.index__img--wp {
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+  text-align: right;
+}
+
+.index__fondo {
+  width: 100%;
+}
+
+.form__textarea {
+  resize: none;
+}
+
+.body__clear {
+  clear: both;
+}
+
+.footer__info--yo {
+  clear: both;
+  text-align: center;
+  color: black;
+  font-style: oblique;
+  font-weight: bold;
+  background-color: #32f573;
+  font-family: 'Roboto', sans-serif;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+}
+
+h2 {
+  color: green;
+}
+
+h3 {
+  color: green;
+}
+
+.recibe__div--fondo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../media/contact-bg.jpg");
+  height: 100vh;
+}
+
+.recibe__div--gris {
+  padding: 20px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  text-align: center;
+  opacity: 80%;
+}
+
+.recibe__div--gris div ul li {
+  color: black;
+  list-style: none;
+}
+
+.recibe__div--gris input {
+  color: black;
+}
+
+.textBlack {
+  color: black;
+}
+
+.eventosFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 20px;
+}
+
+.eventosFlex h3 {
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.torneoPrincipal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border: black 2px solid;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.torneoPrincipal h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+.torneoPrincipal p {
+  font-size: 1.3em;
+  font-family: "Roboto", sans-serif;
+}
+
+.torneoSecu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.torneoSecu h3 {
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
+}
+
+.torneoSecu p {
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+}
+
+.gridPadre {
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  background-image: url("../media/contact-bg.jpg");
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  border: 1px solid black;
+  -ms-grid-rows: (1fr)[4];
+      grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.torneoGrandeGrid {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 1 / 1 / 2 / 3;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  text-align: center;
+  opacity: 80%;
+}
+
+.torneoGrandeGrid p {
+  font-size: 1.3em;
+  font-family: "Roboto", sans-serif;
+}
+
+.torneoGrandeGrid h2 {
+  font-size: 1.6em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.torneoGrandeGrid p {
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.torneoCursoGrid {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 1 / 5 / 2;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  text-align: center;
+  opacity: 80%;
+}
+
+.torneoCursoGrid h2 {
+  color: green;
+  font-size: 1.6em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.torneoCursoGrid h3 {
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
+}
+
+.torneoCursoGrid p {
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+}
+
+.torneoCursoGrid ul li {
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.torneoCursoGrid p {
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.torneoCursoGrid h3 {
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.marginTop {
+  margin-top: 150px;
+}
+
+.noPunto {
+  list-style: none;
+  text-align: left;
+}
+
+.torneoproximoGrid {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 5 / 3;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  text-align: center;
+  opacity: 80%;
+}
+
+.torneoproximoGrid h3 {
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
+}
+
+.torneoproximoGrid p {
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+}
+
+.torneoproximoGrid ul li {
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.torneoproximoGrid h3 {
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.torneoproximoGrid h2 {
+  font-size: 1.6em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.torneoproximoGrid p {
+  font-size: 1.4em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.margin {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: green;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (min-width: 600px) {
+  body {
+    height: 100vh;
+  }
+  .row {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 1400px) {
+  nav div ul li {
+    float: left;
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .gridPadre {
+    text-align: center;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    background-image: url("../media/contact-bg.jpg");
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    padding: 20px;
+    border: 1px solid black;
+    display: block;
+    -ms-grid-rows: (1fr)[4];
+        grid-template-rows: repeat(4, 1fr);
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
