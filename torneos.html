@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,42 +7,107 @@
     <meta name="keywords" content="CANCHA, COMPLEJO, SINTETICO, FUTBOL, SALON DE FIESTA">
     <meta name="description" content="complejo de canchas de cesped sintetico con amplio quincho y salon de fiestas">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <link rel="stylesheet" type="text/css" href="scss/estilo.css">
     <title>Torneos - Complejo Deportivo Colon</title>
+
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html" class="ml-md-3"><img src="media/logo.jpg" alt="logoCancha"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active marginCero">
-                    <a class="nav-link marginCero" href="formulario.html">CONTACTO</a>
-                </li>
-                <li class="nav-item active marginCero">
-                    <a class="nav-link marginCero" href="formulario.html">TURNOS </a>
-                </li>
-                <li class="nav-item active marginCero">
-                    <a class="nav-link marginCero" href="eventos.html">EVENTOS </a>
-                </li>
-                <li class="nav-item active marginCero">
-                    <a class="nav-link marginCero" href="torneos.html">TORNEOS </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav class="principio navbar navbar-expand-lg ">
+            <a class="logo navbar-brand" href="index.html"><img src="media/logosinbg.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <div class="body__clear"></div>
-    <div class="gridPadre">
-        <div class="torneoGrandeGrid">
-            <h2>Los mejores torneos!</h2>
-            <p>Tenemos torneos con varias duraciones. Los relámpagos empiezan y terminan en el día mientras que los clásicos pueden llegar a durar hasta 5 meses.</p>
+            <div class=" navegacion collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="nosotros.html">Nosotros<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="formulario.html">Contacto<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="eventos.html">Eventos<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="torneos.html">Torneo<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="btn" target="_blank" href="https://www.facebook.com/ComplejoDeportivoColon" role="button"><img src="media/facebook.png" alt="facebook"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="bodyBGcolor">
+        <div class="grid-container-torneos">
+            <div class="torneoCurso">
+                <h2>TORNEO EN CURSO</h2>
+                <ul>
+                    <li>Modalidad: Clásico.</li>
+                    <li>7 equipos(uno libre por semana).</li>
+                    <li>Fase de grupos todos contra todos y playoff a partido único.</li>
+                </ul>
+                <ul>
+                    <h3>PREMIOS</h3>
+                    <p>FASE GRUPO</p>
+                    <li>Juego de bolso/botinero y asado completo al 1° puesto.</li>
+                    <p class="margenTop">PLAYOFF</p>
+                    <li>1° puesto: 10 conjuntos(camiseta/short) + cajón de cerveza + costillar + COPA de campeón + 50% insc. del al próximo torneo</li>
+                    <li>2° puesto: 5 conjuntos(camiseta/short) + costillar + trofeo + 50% insc. bonificada al próximo torneo</li>
+                    <li>3° puesto: 5 conjuntos(camiseta/short) + trofeo + 50% insc. bonificada al próximo torneo</li>
+                </ul>
+            </div>
+            <div class="torneoProximo">
+                <h2>PRÓXIMO TORNEO</h2>
+                <ul>
+                    <li>Modalidad: Relámpago.</li>
+                    <li>8 equipos.</li>
+                    <li>Cruces aleatorios con eliminación directa, termina en el día.</li>
+                </ul>
+                <ul>
+                    <h3>PREMIOS</h3>
+                    <li>1° puesto: $6.000 y inscripción bonificada a próximo torneo.</li>
+                    <li>2° puesto: $3.000 y inscripción bonificada a próximo torneo.</li>
+                    <li>3° puesto: $1.500 y 50% inscripción bonificada a próximo torneo.</li>
+                </ul>
+            </div>
+            <div class="fotosPremios">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img src="media/torneos/torneo12.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media/torneos/torneo1.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="media/caro1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="torneoCursoGrid">
-            <h3>TORNEO EN CURSO</h3>
+    </div>
+    <!--
+    <section class="info torneoFullGris">
+        <div>
+            <h2>TORNEO EN CURSO</h2>
             <ul>
                 <li>Modalidad: Clásico.</li>
                 <li>7 equipos(uno libre por semana).</li>
@@ -57,24 +122,47 @@
                 <li class="noPunto ml-3 mb-3">2° puesto: 5 conjuntos(camiseta/short) + costillar + trofeo + 50% insc. bonificada al próximo torneo</li>
                 <li class="noPunto ml-3 mb-3">3° puesto: 5 conjuntos(camiseta/short) + trofeo + 50% insc. bonificada al próximo torneo</li>
             </ul>
-
         </div>
-
-        <div class="torneoproximoGrid">
-            <h3>PROXIMO TORNEO</h3>
+        <div>
+            <h2>TORNEO EN CURSO</h2>
             <ul>
                 <li>Modalidad: Clásico.</li>
-                <li>9 equipos(uno libre por semana).</li>
+                <li>7 equipos(uno libre por semana).</li>
                 <li>Fase de grupos todos contra todos y playoff a partido único.</li>
             </ul>
+            <ul>
+                <h3>PREMIOS</h3>
+                <p class="margin">FASE GRUPO</p>
+                <li>Juego de bolso/botinero y asado completo al 1° puesto.</li>
+                <p class="margin">PLAYOFF</p>
+                <li class="noPunto ml-3 mb-3">1° puesto: 10 conjuntos(camiseta/short) + cajón de cerveza + costillar + COPA de campeón + 50% insc. del al próximo torneo</li>
+                <li class="noPunto ml-3 mb-3">2° puesto: 5 conjuntos(camiseta/short) + costillar + trofeo + 50% insc. bonificada al próximo torneo</li>
+                <li class="noPunto ml-3 mb-3">3° puesto: 5 conjuntos(camiseta/short) + trofeo + 50% insc. bonificada al próximo torneo</li>
+            </ul>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="media/caro1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/caro2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/caro3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
 
-    </div>
-    </div>
-    <div class="index__img--wp">
-        <a href="https://www.facebook.com/ComplejoDeportivoColon/" target="_blank"><img src="media/facepng.png" alt="logoFB"></a>
-    </div>
-    <footer class="footer__info--yo">CopyRight© Dario Mujica 2021. Complejo Deportivo Colon ~ Av. Colon 9534</footer>
+    </section>-->
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>

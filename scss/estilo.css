@@ -1,395 +1,678 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
-nav {
-  background-color: white;
-  color: green;
-}
-
-nav div ul li {
-  float: left;
-  margin-top: 25px;
-  margin-left: 50px;
-  margin-right: 50px;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-nav div ul li a {
-  color: green;
-  text-decoration: none;
-}
-
-.header__nav--logo {
-  width: 80px;
-}
-
-.header__nav--backcolor {
-  background-color: white;
-}
-
-.index__img--wp {
-  position: fixed;
-  bottom: 0px;
-  right: 20px;
-  text-align: right;
-}
-
-.index__fondo {
+.principio {
+  background: #f3f6fa;
+  background: linear-gradient(87deg, rgba(243, 246, 250, 0.888375) 25%, rgba(136, 132, 132, 0.902381) 53%, rgba(91, 89, 90, 0.978011) 97%);
+  border-bottom: 1px solid #000;
+  min-height: 10px;
   width: 100%;
+  position: absolute;
+  height: 105px;
+  z-index: 99999;
+  /* .logo {
+    margin-left: 20px;
+  }
+  .navegacion {
+    padding-left: 260px;
+  }*/
 }
 
-.form__textarea {
-  resize: none;
-}
-
-.body__clear {
-  clear: both;
-}
-
-.footer__info--yo {
-  clear: both;
-  text-align: center;
-  color: black;
-  font-style: oblique;
-  font-weight: bold;
-  background-color: #32f573;
-  font-family: 'Roboto', sans-serif;
-  border-top: 2px black solid;
-  border-bottom: 2px black solid;
-}
-
-h2 {
-  color: green;
-}
-
-h3 {
-  color: green;
-}
-
-.recibe__div--fondo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-image: url("../media/contact-bg.jpg");
-  height: 100vh;
-}
-
-.recibe__div--gris {
-  padding: 20px;
-  background-color: whitesmoke;
-  border: 1px solid black;
-  text-align: center;
-  opacity: 80%;
-}
-
-.recibe__div--gris div ul li {
-  color: black;
+.principio ul {
   list-style: none;
 }
 
-.recibe__div--gris input {
-  color: black;
+.principio ul li {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 
-.textBlack {
-  color: black;
+.principio .logo:hover {
+  background: transparent;
 }
 
-.eventosFlex {
+.principio a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding-left: 10px;
+  color: black;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+.principio a:hover {
+  color: #fff;
+  background: transparent;
+}
+
+.fondoP {
+  background-image: url(../media/logoP.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  position: center;
+  background-size: cover;
+  background-attachment: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  margin: 20px;
-}
-
-.eventosFlex h3 {
-  text-align: center;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-.torneoPrincipal {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  border: black 2px solid;
-  margin: 5px;
-  padding: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
 
-.torneoPrincipal h2 {
-  margin-bottom: 20px;
-  font-size: 1.5em;
-  font-family: "Roboto", sans-serif;
+.fondoP .texto h1 {
+  padding-top: 24%;
+  font-size: 4rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
 }
 
-.torneoPrincipal p {
-  font-size: 1.3em;
-  font-family: "Roboto", sans-serif;
+.fondoP .botonIzq {
+  padding-top: 15%;
 }
 
-.torneoSecu {
+.fondoP .botones {
+  padding-top: 15px;
+}
+
+.seccion1 {
+  background-image: url(../media/seccion1.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  position: center;
+  background-size: cover;
+  background-attachment: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  margin: 5px;
-  padding: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
-.torneoSecu h3 {
-  font-size: 1.4em;
+.redes a {
+  margin-right: 150px;
+}
+
+.complejo {
+  display: inline;
+  float: left;
+  padding: 0 172px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.complejo h2 {
+  padding-top: 150px;
+  font-family: "Noto Sans SC", sans-serif;
+  color: #fff;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+  font-size: 3rem;
+}
+
+.complejo p {
+  padding-top: 25px;
+  font-size: 20px;
+  text-shadow: -2px -2px 0.5px #fff, 2px 2px 0.5px #fff, -2px 2px 0.5px #fff, 2px -2px 0.5px #fff;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+.knowmore-btn:hover {
+  background-color: #009e00;
+  border-color: #009e00;
+}
+
+.knowmore-btn:hover {
+  color: white;
+  border: 2px solid white;
+  border-top-color: white(0, 0, 0);
+  border-right-color: white(0, 0, 0);
+  border-bottom-color: white(0, 0, 0);
+  border-left-color: white(0, 0, 0);
+  border-radius: 2px;
+  text-decoration: none;
+  outline: none;
+}
+
+.knowmore-btn {
+  border: 2px solid #fff;
+  border-top-color: white(0, 0, 0);
+  border-right-color: white(0, 0, 0);
+  border-bottom-color: white(0, 0, 0);
+  border-left-color: white(0, 0, 0);
+  border-radius: 2px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 25px 28px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.contacto {
+  padding-top: 70px;
+}
+
+.info {
+  background-color: #96929285;
+  width: 100%;
+  height: 140vh;
+  display: inline;
+  float: left;
+  padding: 0 172px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.info h2 {
+  padding-top: 150px;
+  color: green;
+  font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
 
-.torneoSecu p {
-  font-size: 1.2em;
+.info p {
+  padding: 15px;
   font-family: "Roboto", sans-serif;
 }
 
-.gridPadre {
+.juaniWP {
+  background-color: rgba(8, 8, 8, 0.6);
+}
+
+.margenBTN {
+  margin-left: 10%;
+}
+
+.datosInfo {
+  background-image: url(../media/pelota.jpg);
+  width: 100%;
+  height: 130vh;
+  display: inline;
+  float: left;
+  padding: 0 172px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.contactoEntero {
+  padding-top: 150px;
+  padding-left: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contactoDatos {
+  margin-right: 15%;
+  background-color: rgba(8, 8, 8, 0.6);
+}
+
+.contactoDatos ul {
+  list-style: none;
+}
+
+.contactoDatos h3 {
+  color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.contactoDatos h4 {
+  color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.contactoDatos li {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.fondoBlackEventos {
+  background-color: rgba(8, 8, 8, 0.6);
+  color: white;
+}
+
+.contactoForm {
+  margin-left: 15%;
+  background-color: rgba(8, 8, 8, 0.6);
+}
+
+.contactoForm h3 {
+  color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.contactoForm input {
+  width: 100%;
+}
+
+.contactoForm textarea {
+  resize: none;
+  width: 100%;
+}
+
+.sendBlack {
+  background-color: black;
+  color: white;
+}
+
+.recibeBTN {
+  margin-left: -10%;
+  text-align: center;
+}
+
+.textRecibe {
+  margin-top: -15%;
+}
+
+.eventos {
+  margin-top: 15%;
+  background-color: rgba(8, 8, 8, 0.6);
+}
+
+.eventos h3 {
+  color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.eventos p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.torneoFullGris {
+  height: 165vh;
+}
+
+.boxCumple {
+  height: 200px;
+  width: 300px;
+}
+
+.boxEscuela {
+  height: 200px;
+  width: 300px;
+}
+
+.boxTorneo {
+  height: 200px;
+  width: 300px;
+}
+
+.bodyBGcolor {
+  background-color: #96929285;
+}
+
+.bodyBGimg {
+  background-image: url(../media/fondogradas.jpg);
+}
+
+.grid-container {
   display: -ms-grid;
   display: grid;
-  text-align: center;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  background-image: url("../media/contact-bg.jpg");
-  width: 100%;
-  height: 100vh;
-  padding: 20px;
-  border: 1px solid black;
-  -ms-grid-rows: (1fr)[4];
-      grid-template-rows: repeat(4, 1fr);
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+      grid-template-areas: "textoTorneo textoTorneo fotoTorneo fotoTorneo" "fotoEscuela fotoEscuela textoEscuela textoEscuela" "textoCumple textoCumple fotoCumple fotoCumple";
+  padding-top: 150px;
+  margin-left: 15px;
 }
 
-.torneoGrandeGrid {
+.textoTorneo {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
-  grid-area: 1 / 1 / 2 / 3;
-  background-color: whitesmoke;
-  border: 1px solid black;
+  grid-area: textoTorneo;
   text-align: center;
-  opacity: 80%;
 }
 
-.torneoGrandeGrid p {
-  font-size: 1.3em;
+.textoTorneo h3 {
+  color: green;
+  margin-bottom: 40px;
   font-family: "Roboto", sans-serif;
-}
-
-.torneoGrandeGrid h2 {
-  font-size: 1.6em;
-  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
   font-weight: bold;
 }
 
-.torneoGrandeGrid p {
-  font-size: 1.4em;
+.textoTorneo p {
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
 }
 
-.torneoCursoGrid {
+.fotoTorneo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: fotoTorneo;
+}
+
+.fotoEscuela {
   -ms-grid-row: 2;
-  -ms-grid-row-span: 3;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-area: 2 / 1 / 5 / 2;
-  background-color: whitesmoke;
-  border: 1px solid black;
-  text-align: center;
-  opacity: 80%;
+  -ms-grid-column-span: 2;
+  grid-area: fotoEscuela;
 }
 
-.torneoCursoGrid h2 {
-  color: green;
-  font-size: 1.6em;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-}
-
-.torneoCursoGrid h3 {
-  font-size: 1.4em;
-  font-family: "Roboto", sans-serif;
-}
-
-.torneoCursoGrid p {
-  font-size: 1.2em;
-  font-family: "Roboto", sans-serif;
-}
-
-.torneoCursoGrid ul li {
-  font-size: 1.4em;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  list-style-type: none;
-}
-
-.torneoCursoGrid p {
-  font-size: 1.4em;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-}
-
-.torneoCursoGrid h3 {
-  font-size: 1.4em;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-}
-
-.marginTop {
-  margin-top: 150px;
-}
-
-.noPunto {
-  list-style: none;
-  text-align: left;
-}
-
-.torneoproximoGrid {
+.textoEscuela {
   -ms-grid-row: 2;
-  -ms-grid-row-span: 3;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-area: 2 / 2 / 5 / 3;
-  background-color: whitesmoke;
-  border: 1px solid black;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: textoEscuela;
   text-align: center;
-  opacity: 80%;
 }
 
-.torneoproximoGrid h3 {
-  font-size: 1.4em;
-  font-family: "Roboto", sans-serif;
-}
-
-.torneoproximoGrid p {
-  font-size: 1.2em;
-  font-family: "Roboto", sans-serif;
-}
-
-.torneoproximoGrid ul li {
-  font-size: 1.4em;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  list-style-type: none;
-}
-
-.torneoproximoGrid h3 {
-  font-size: 1.4em;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-}
-
-.torneoproximoGrid h2 {
-  font-size: 1.6em;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-}
-
-.torneoproximoGrid p {
-  font-size: 1.4em;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-}
-
-.margin {
-  margin-top: 20px;
-  margin-bottom: 10px;
+.textoEscuela h3 {
   color: green;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.textoEscuela p {
   font-family: "Roboto", sans-serif;
 }
 
-@media (min-width: 600px) {
-  body {
-    height: 100vh;
-  }
-  .row {
-    height: 100vh;
-  }
+.textoCumple {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: textoCumple;
+  text-align: center;
 }
 
-@media (max-width: 1400px) {
-  nav div ul li {
-    float: left;
-    margin-top: 25px;
+.textoCumple h3 {
+  color: green;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.textoCumple p {
+  font-family: "Roboto", sans-serif;
+}
+
+.fotoCumple {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: fotoCumple;
+}
+
+.grid-container-torneos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 0.2fr 0.2fr 0fr;
+      grid-template-rows: 0.2fr 0.2fr 0fr;
+  gap: 0px 0px;
+      grid-template-areas: "torneoCurso torneoCurso torneoProximo torneoProximo" "fotosPremios fotosPremios fotosPremios fotosPremios" ". . . .";
+  padding-top: 150px;
+}
+
+.torneoCurso {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: torneoCurso;
+  margin-left: 55px;
+  text-align: center;
+}
+
+.torneoCurso h3 {
+  color: green;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.torneoCurso h2 {
+  color: green;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.torneoCurso li {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.torneoCurso p {
+  font-family: "Roboto", sans-serif;
+  color: green;
+}
+
+.margenTop {
+  margin-top: 15px;
+}
+
+.torneoProximo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: torneoProximo;
+  margin-left: 35px;
+  text-align: center;
+}
+
+.torneoProximo h3 {
+  color: green;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.torneoProximo h2 {
+  color: green;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.torneoProximo li {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.torneoProximo p {
+  font-family: "Roboto", sans-serif;
+  color: green;
+}
+
+.fotosPremios {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: fotosPremios;
+}
+
+@media (max-width: 1000px) {
+  .principio {
+    height: auto;
+  }
+  .margenBTN {
+    margin-left: 10%;
+  }
+  .complejo {
+    padding: 0px;
+  }
+  .info {
+    padding: 0px;
+  }
+  .datosInfo {
+    padding: 0px;
+  }
+  .navbar-brand {
     margin-left: 0px;
     margin-right: 0px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
   }
-  .gridPadre {
-    text-align: center;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    background-image: url("../media/contact-bg.jpg");
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
-    padding: 20px;
-    border: 1px solid black;
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .navbar-toggler {
+    border-color: black;
+  }
+  .contactoEntero {
+    padding-left: 0;
+  }
+  .grid-container {
     display: block;
-    -ms-grid-rows: (1fr)[4];
-        grid-template-rows: repeat(4, 1fr);
+    margin-left: 0;
+  }
+  .grid-container-torneos {
+    display: block;
+    margin-left: 0;
+  }
+  .torneoCurso {
+    margin-left: 0;
+  }
+  .torneoProximo {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 445px) {
+  .knowmore-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .margenBTN {
+    margin-left: 0px;
+  }
+  .complejo {
+    padding: 0px;
+  }
+  .info {
+    padding: 0px;
+  }
+  .datosInfo {
+    padding: 0px;
+  }
+  .navbar-brand {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .custom-toggler.navbar-toggler {
+    border-color: black;
+  }
+  .fondoP .texto h1 {
+    font-size: 3rem;
+  }
+  .contactoEntero {
+    padding-left: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contactoDatos {
+    margin-right: 0;
+  }
+  .contactoForm {
+    margin-left: -5%;
+  }
+  .frameResp {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+  .textoTorneo {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: textoTorneo;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .fotoTorneo {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-area: fotoTorneo;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .fotoEscuela {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: fotoEscuela;
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  .textoEscuela {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-area: textoEscuela;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .textoCumple {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: textoCumple;
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+  .fotoCumple {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-area: fotoCumple;
+    -webkit-box-ordinal-group: 7;
+        -ms-flex-order: 6;
+            order: 6;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
