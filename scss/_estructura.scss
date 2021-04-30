@@ -12,12 +12,6 @@
     position: absolute;
     height: 105px;
     z-index: 99999;
-    /* .logo {
-    margin-left: 20px;
-  }
-  .navegacion {
-    padding-left: 260px;
-  }*/
     ul {
         list-style: none;
         li {
@@ -156,13 +150,12 @@
 .info {
     background-color: $color-fondo-paginas;
     width: 100%;
-    height: 140vh;
+    height: 100%;
     display: inline;
     float: left;
     padding: 0 172px;
     position: relative;
     text-align: center;
-    width: 100%;
     h2 {
         padding-top: 150px;
         color: $color-fondo-verde;
@@ -186,13 +179,12 @@
 .datosInfo {
     background-image: url(../media/pelota.jpg);
     width: 100%;
-    height: 130vh;
+    height: 100vh;
     display: inline;
     float: left;
     padding: 0 172px;
     position: relative;
     text-align: center;
-    width: 100%;
 }
 
 .contactoEntero {
@@ -212,12 +204,14 @@
         font-family: $tipografia-general;
         font-weight: bold;
         font-size: 2rem;
+        margin: 15px;
     }
     h4 {
         color: $color-texto-verde;
         font-family: $tipografia-general;
         font-weight: bold;
         font-size: 1.4rem;
+        margin: 15px;
     }
     li {
         font-family: $tipografia-general;
@@ -234,11 +228,13 @@
 .contactoForm {
     margin-left: 15%;
     background-color: rgba(8, 8, 8, 0.6);
+    padding: 0px 15px 0px 15px;
     h3 {
         color: $color-texto-verde;
         font-family: $tipografia-general;
         font-weight: bold;
         font-size: 2rem;
+        margin: 15px;
     }
     input {
         width: 100%;
@@ -280,7 +276,7 @@
 }
 
 .torneoFullGris {
-    height: 165vh;
+    height: 100%;
 }
 
 .boxCumple {
@@ -450,6 +446,19 @@
     grid-area: fotosPremios;
 }
 
+.blockquote-footer {
+    margin-top: 0px;
+    background: linear-gradient(87deg, rgba(243, 246, 250, 0.888375) 25%, rgba(136, 132, 132, 0.902381) 53%, rgba(91, 89, 90, 0.978011) 97%);
+    font-family: $tipo-principal;
+}
+
+@media (max-width: 1900px) {
+    .datosInfo {
+        padding: 0px;
+        height: 100%;
+    }
+}
+
 @media (max-width: 1000px) {
     .principio {
         height: auto;
@@ -465,6 +474,7 @@
     }
     .datosInfo {
         padding: 0px;
+        height: 100%;
     }
     .navbar-brand {
         margin-left: 0px;
@@ -511,6 +521,7 @@
     }
     .datosInfo {
         padding: 0px;
+        height: 100%;
     }
     .navbar-brand {
         margin-left: 0px;
@@ -538,11 +549,18 @@
     }
     .contactoForm {
         margin-left: -5%;
+        padding: 0;
     }
     .frameResp {
         position: relative;
         overflow: hidden;
         padding-top: 56.25%;
+    }
+    .datosInfo {
+        height: 100%;
+    }
+    .seccion1 {
+        height: 100%;
     }
     .textoTorneo {
         grid-area: textoTorneo;
