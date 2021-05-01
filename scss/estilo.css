@@ -106,6 +106,7 @@
   position: relative;
   text-align: center;
   width: 100%;
+  margin: auto;
 }
 
 .complejo h2 {
@@ -525,10 +526,159 @@
   font-family: "Noto Sans SC", sans-serif;
 }
 
+.tribunas {
+  background-image: url(../media/fondotribuna.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.contactP {
+  width: 50%;
+}
+
+.contact {
+  text-align: center;
+  width: 80%;
+  max-width: 100%;
+  padding-top: 25px;
+  -webkit-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+  background: rgba(8, 8, 8, 0.8);
+  margin-left: 60px;
+}
+
+.contact h2 {
+  font-family: "Noto Sans SC", sans-serif;
+  color: #fff;
+}
+
+.txt {
+  display: block;
+  padding: 5px;
+  width: 100%;
+  margin: 20px 0px;
+  font-size: 15px;
+  font-family: "Noto Sans SC", sans-serif;
+  color: #fff;
+}
+
+.txt2 {
+  display: block;
+  width: 100%;
+  font-family: "Noto Sans SC", sans-serif;
+  color: #fff;
+  padding: 2px;
+}
+
+.reserv {
+  margin-top: auto;
+  font-family: "Noto Sans SC", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+.consult {
+  text-align: center;
+  width: 50%;
+}
+
+.formEstilo {
+  width: 80%;
+  max-width: 100%;
+  padding-top: 25px;
+  -webkit-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+  background: rgba(8, 8, 8, 0.8);
+}
+
+.formEstilo textarea {
+  resize: none;
+}
+
+.formInfo {
+  text-align: center;
+  margin-top: 0;
+  color: #fff;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+.formula,
+.enviar {
+  display: block;
+  padding: 20px;
+  width: 100%;
+  margin: 30px 0px;
+  font-size: 15px;
+  border: none;
+}
+
+.enviar {
+  background-color: #000;
+  border: 0;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-bottom: 0;
+  opacity: 0.7;
+  -webkit-transition: 0.8s ease-out;
+  transition: 0.8s ease-out;
+  color: #fff;
+}
+
+.enviar:hover {
+  opacity: 1;
+  border-radius: 0;
+}
+
+@media (max-width: 600px) {
+  .tribunas {
+    height: 200vh;
+  }
+  .contactP {
+    text-align: center;
+    width: 90%;
+    max-width: 100%;
+    padding-top: 10px;
+    background: transparent;
+  }
+  .consult {
+    text-align: center;
+    width: 90%;
+    max-width: 100%;
+    padding-top: 10px;
+    background: transparent;
+  }
+  .formEstilo {
+    text-align: center;
+    width: 80%;
+    max-width: 100%;
+    padding-top: 10px;
+    margin-left: 60px;
+    margin-top: -170px;
+  }
+}
+
 @media (max-width: 1900px) {
   .datosInfo {
     padding: 0px;
     height: 100%;
+  }
+  .row {
+    margin: 0;
+  }
+  .tribunas {
+    height: 120vh;
   }
 }
 
@@ -638,59 +788,17 @@
   .seccion1 {
     height: 100%;
   }
-  .textoTorneo {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-area: textoTorneo;
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+  .tribunas {
+    height: 160vh;
   }
-  .fotoTorneo {
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;
-    -ms-grid-column-span: 2;
-    grid-area: fotoTorneo;
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+  .consult {
+    margin-top: 55px;
   }
-  .fotoEscuela {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-area: fotoEscuela;
-    -webkit-box-ordinal-group: 5;
-        -ms-flex-order: 4;
-            order: 4;
-  }
-  .textoEscuela {
-    -ms-grid-row: 2;
-    -ms-grid-column: 3;
-    -ms-grid-column-span: 2;
-    grid-area: textoEscuela;
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
-  }
-  .textoCumple {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-area: textoCumple;
-    -webkit-box-ordinal-group: 6;
-        -ms-flex-order: 5;
-            order: 5;
-  }
-  .fotoCumple {
-    -ms-grid-row: 3;
-    -ms-grid-column: 3;
-    -ms-grid-column-span: 2;
-    grid-area: fotoCumple;
-    -webkit-box-ordinal-group: 7;
-        -ms-flex-order: 6;
-            order: 6;
+}
+
+@media (max-width: 100px) {
+  .seccion1 {
+    height: 100vh;
   }
 }
 /*# sourceMappingURL=estilo.css.map */

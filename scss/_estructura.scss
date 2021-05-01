@@ -92,6 +92,7 @@
     position: relative;
     text-align: center;
     width: 100%;
+    margin: auto;
     h2 {
         padding-top: 150px;
         font-family: $tipo-principal;
@@ -452,10 +453,150 @@
     font-family: $tipo-principal;
 }
 
+.tribunas {
+    background-image: url(../media/fondotribuna.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contactP {
+    width: 50%;
+}
+
+.contact {
+    text-align: center;
+    width: 80%;
+    max-width: 100%;
+    padding-top: 25px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+    background: rgba(8, 8, 8, 0.8);
+    margin-left: 60px;
+    h2 {
+        font-family: $tipo-principal;
+        color: #fff;
+    }
+}
+
+.txt {
+    display: block;
+    padding: 5px;
+    width: 100%;
+    margin: 20px 0px;
+    font-size: 15px;
+    font-family: $tipo-principal;
+    color: #fff;
+}
+
+.txt2 {
+    display: block;
+    width: 100%;
+    font-family: $tipo-principal;
+    color: #fff;
+    padding: 2px;
+}
+
+.reserv {
+    margin-top: auto;
+    font-family: $tipo-principal;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+.consult {
+    text-align: center;
+    width: 50%;
+}
+
+.formEstilo {
+    width: 80%;
+    max-width: 100%;
+    padding-top: 25px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+    background: rgba(8, 8, 8, 0.8);
+    textarea {
+        resize: none;
+    }
+}
+
+.formInfo {
+    text-align: center;
+    margin-top: 0;
+    color: #fff;
+    font-family: $tipo-principal;
+}
+
+.formula,
+.enviar {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    margin: 30px 0px;
+    font-size: 15px;
+    border: none;
+}
+
+.enviar {
+    background-color: #000;
+    border: 0;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: 0;
+    opacity: 0.7;
+    transition: 0.8s ease-out;
+    color: #fff;
+}
+
+.enviar:hover {
+    opacity: 1;
+    border-radius: 0;
+}
+
+@media (max-width: 600px) {
+    .tribunas {
+        height: 200vh;
+    }
+    .contactP {
+        text-align: center;
+        width: 90%;
+        max-width: 100%;
+        padding-top: 10px;
+        background: transparent;
+    }
+    .consult {
+        text-align: center;
+        width: 90%;
+        max-width: 100%;
+        padding-top: 10px;
+        background: transparent
+    }
+    .formEstilo {
+        text-align: center;
+        width: 80%;
+        max-width: 100%;
+        padding-top: 10px;
+        margin-left: 60px;
+        margin-top: -170px;
+    }
+}
+
 @media (max-width: 1900px) {
     .datosInfo {
         padding: 0px;
         height: 100%;
+    }
+    .row {
+        margin: 0;
+    }
+    .tribunas {
+        height: 120vh;
     }
 }
 
@@ -562,28 +703,16 @@
     .seccion1 {
         height: 100%;
     }
-    .textoTorneo {
-        grid-area: textoTorneo;
-        order: 1;
+    .tribunas {
+        height: 160vh;
     }
-    .fotoTorneo {
-        grid-area: fotoTorneo;
-        order: 2;
+    .consult {
+        margin-top: 55px;
     }
-    .fotoEscuela {
-        grid-area: fotoEscuela;
-        order: 4;
-    }
-    .textoEscuela {
-        grid-area: textoEscuela;
-        order: 3;
-    }
-    .textoCumple {
-        grid-area: textoCumple;
-        order: 5;
-    }
-    .fotoCumple {
-        grid-area: fotoCumple;
-        order: 6;
+}
+
+@media (max-width: 100px) {
+    .seccion1 {
+        height: 100vh;
     }
 }
