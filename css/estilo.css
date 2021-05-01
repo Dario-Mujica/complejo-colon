@@ -1,2 +1,804 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@900&display=swap");@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");*{margin:0;padding:0}.principio{background:#f3f6fa;background:linear-gradient(87deg, rgba(243,246,250,0.888375) 25%, rgba(136,132,132,0.902381) 53%, rgba(91,89,90,0.978011) 97%);border-bottom:1px solid #000;min-height:10px;width:100%;position:absolute;height:105px;z-index:99999}.principio ul{list-style:none}.principio ul li{display:inline-block;font-family:"Roboto",sans-serif;cursor:pointer}.principio .logo:hover{background:transparent}.principio a{display:inline-block;text-decoration:none;font-size:1.5rem;padding-left:10px;color:black;font-family:"Noto Sans SC",sans-serif}.principio a:hover{color:#fff;background:transparent}.fondoP{background-image:url(../media/logoP.jpg);width:100%;height:100vh;background-position:center;position:center;background-size:cover;background-attachment:fixed;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.fondoP .texto h1{padding-top:24%;font-size:4rem;font-family:"Montserrat",sans-serif;text-transform:uppercase;color:white;text-shadow:-2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000}.fondoP .botonIzq{padding-top:15%}.fondoP .botones{padding-top:15px}.seccion1{background-image:url(../media/seccion1.jpg);width:100%;height:100vh;background-position:center;position:center;background-size:cover;background-attachment:fixed;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center}.redes a{margin-right:150px}.complejo{display:inline;float:left;padding:0 172px;position:relative;text-align:center;width:100%}.complejo h2{padding-top:150px;font-family:"Noto Sans SC",sans-serif;color:#fff;text-shadow:-2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;font-size:3rem}.complejo p{padding-top:25px;font-size:20px;text-shadow:-2px -2px 0.5px #fff, 2px 2px 0.5px #fff, -2px 2px 0.5px #fff, 2px -2px 0.5px #fff;font-family:"Noto Sans SC",sans-serif}.knowmore-btn:hover{background-color:#009e00;border-color:#009e00}.knowmore-btn:hover{color:white;border:2px solid white;border-top-color:white(0, 0, 0);border-right-color:white(0, 0, 0);border-bottom-color:white(0, 0, 0);border-left-color:white(0, 0, 0);border-radius:2px;text-decoration:none;outline:none}.knowmore-btn{border:2px solid #fff;border-top-color:white(0, 0, 0);border-right-color:white(0, 0, 0);border-bottom-color:white(0, 0, 0);border-left-color:white(0, 0, 0);border-radius:2px;color:white;font-size:20px;font-weight:bold;text-transform:uppercase;padding:25px 28px;-webkit-transition:all 0.5s;transition:all 0.5s}.contacto{padding-top:70px}.info{background-color:#f6f6f6;width:100%;height:150vh;display:inline;float:left;padding:0 172px;position:relative;text-align:center;width:100%}.info h2{padding-top:150px}.info p{padding:15px}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.principio {
+  background: #f3f6fa;
+  background: linear-gradient(87deg, rgba(243, 246, 250, 0.888375) 25%, rgba(136, 132, 132, 0.902381) 53%, rgba(91, 89, 90, 0.978011) 97%);
+  border-bottom: 1px solid #000;
+  min-height: 10px;
+  width: 100%;
+  position: absolute;
+  height: 105px;
+  z-index: 99999;
+}
+
+.principio ul {
+  list-style: none;
+}
+
+.principio ul li {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.principio .logo:hover {
+  background: transparent;
+}
+
+.principio a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding-left: 10px;
+  color: black;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+.principio a:hover {
+  color: #fff;
+  background: transparent;
+}
+
+.fondoP {
+  background-image: url(../media/logoP.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.fondoP .texto h1 {
+  padding-top: 24%;
+  font-size: 4rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+.fondoP .botonIzq {
+  padding-top: 15%;
+}
+
+.fondoP .botones {
+  padding-top: 15px;
+}
+
+.seccion1 {
+  background-image: url(../media/seccion1.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.redes a {
+  margin-right: 150px;
+}
+
+.complejo {
+  display: inline;
+  float: left;
+  padding: 0 172px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.complejo h2 {
+  padding-top: 150px;
+  font-family: "Noto Sans SC", sans-serif;
+  color: #fff;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+  font-size: 3rem;
+}
+
+.complejo p {
+  padding-top: 25px;
+  font-size: 20px;
+  text-shadow: -2px -2px 0.5px #fff, 2px 2px 0.5px #fff, -2px 2px 0.5px #fff, 2px -2px 0.5px #fff;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+.knowmore-btn:hover {
+  background-color: #009e00;
+  border-color: #009e00;
+}
+
+.knowmore-btn:hover {
+  color: white;
+  border: 2px solid white;
+  border-top-color: white(0, 0, 0);
+  border-right-color: white(0, 0, 0);
+  border-bottom-color: white(0, 0, 0);
+  border-left-color: white(0, 0, 0);
+  border-radius: 2px;
+  text-decoration: none;
+  outline: none;
+}
+
+.knowmore-btn {
+  border: 2px solid #fff;
+  border-top-color: white(0, 0, 0);
+  border-right-color: white(0, 0, 0);
+  border-bottom-color: white(0, 0, 0);
+  border-left-color: white(0, 0, 0);
+  border-radius: 2px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 25px 28px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.contacto {
+  padding-top: 70px;
+}
+
+.info {
+  background-color: #96929285;
+  width: 100%;
+  height: 100%;
+  display: inline;
+  float: left;
+  padding: 0 172px;
+  position: relative;
+  text-align: center;
+}
+
+.info h2 {
+  padding-top: 150px;
+  color: green;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.info p {
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.juaniWP {
+  background-color: rgba(8, 8, 8, 0.6);
+}
+
+.margenBTN {
+  margin-left: 10%;
+}
+
+.datosInfo {
+  background-image: url(../media/pelota.jpg);
+  width: 100%;
+  height: 100vh;
+  display: inline;
+  float: left;
+  padding: 0 172px;
+  position: relative;
+  text-align: center;
+}
+
+.contactoEntero {
+  padding-top: 150px;
+  padding-left: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contactoDatos {
+  margin-right: 15%;
+  background-color: rgba(8, 8, 8, 0.6);
+}
+
+.contactoDatos ul {
+  list-style: none;
+}
+
+.contactoDatos h3 {
+  color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 15px;
+}
+
+.contactoDatos h4 {
+  color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin: 15px;
+}
+
+.contactoDatos li {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.fondoBlackEventos {
+  background-color: rgba(8, 8, 8, 0.6);
+  color: white;
+}
+
+.contactoForm {
+  margin-left: 15%;
+  background-color: rgba(8, 8, 8, 0.6);
+  padding: 0px 15px 0px 15px;
+}
+
+.contactoForm h3 {
+  color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 15px;
+}
+
+.contactoForm input {
+  width: 100%;
+}
+
+.contactoForm textarea {
+  resize: none;
+  width: 100%;
+}
+
+.sendBlack {
+  background-color: black;
+  color: white;
+}
+
+.recibeBTN {
+  margin-left: -10%;
+  text-align: center;
+}
+
+.textRecibe {
+  margin-top: -15%;
+}
+
+.eventos {
+  margin-top: 15%;
+  background-color: rgba(8, 8, 8, 0.6);
+}
+
+.eventos h3 {
+  color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.eventos p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.torneoFullGris {
+  height: 100%;
+}
+
+.boxCumple {
+  height: 200px;
+  width: 300px;
+}
+
+.boxEscuela {
+  height: 200px;
+  width: 300px;
+}
+
+.boxTorneo {
+  height: 200px;
+  width: 300px;
+}
+
+.bodyBGcolor {
+  background-color: #96929285;
+}
+
+.bodyBGimg {
+  background-image: url(../media/fondogradas.jpg);
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+      grid-template-areas: "textoTorneo textoTorneo fotoTorneo fotoTorneo" "fotoEscuela fotoEscuela textoEscuela textoEscuela" "textoCumple textoCumple fotoCumple fotoCumple";
+  padding-top: 150px;
+  margin-left: 15px;
+}
+
+.textoTorneo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: textoTorneo;
+  text-align: center;
+}
+
+.textoTorneo h3 {
+  color: green;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.textoTorneo p {
+  font-family: "Roboto", sans-serif;
+}
+
+.fotoTorneo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: fotoTorneo;
+}
+
+.fotoEscuela {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: fotoEscuela;
+}
+
+.textoEscuela {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: textoEscuela;
+  text-align: center;
+}
+
+.textoEscuela h3 {
+  color: green;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.textoEscuela p {
+  font-family: "Roboto", sans-serif;
+}
+
+.textoCumple {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: textoCumple;
+  text-align: center;
+}
+
+.textoCumple h3 {
+  color: green;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.textoCumple p {
+  font-family: "Roboto", sans-serif;
+}
+
+.fotoCumple {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: fotoCumple;
+}
+
+.grid-container-torneos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 0.2fr 0.2fr 0fr;
+      grid-template-rows: 0.2fr 0.2fr 0fr;
+  gap: 0px 0px;
+      grid-template-areas: "torneoCurso torneoCurso torneoProximo torneoProximo" "fotosPremios fotosPremios fotosPremios fotosPremios" ". . . .";
+  padding-top: 150px;
+}
+
+.torneoCurso {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: torneoCurso;
+  margin-left: 55px;
+  text-align: center;
+}
+
+.torneoCurso h3 {
+  color: green;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.torneoCurso h2 {
+  color: green;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.torneoCurso li {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.torneoCurso p {
+  font-family: "Roboto", sans-serif;
+  color: green;
+}
+
+.margenTop {
+  margin-top: 15px;
+}
+
+.torneoProximo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: torneoProximo;
+  margin-left: 35px;
+  text-align: center;
+}
+
+.torneoProximo h3 {
+  color: green;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.torneoProximo h2 {
+  color: green;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.torneoProximo li {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.torneoProximo p {
+  font-family: "Roboto", sans-serif;
+  color: green;
+}
+
+.fotosPremios {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: fotosPremios;
+}
+
+.blockquote-footer {
+  margin-top: 0px;
+  background: linear-gradient(87deg, rgba(243, 246, 250, 0.888375) 25%, rgba(136, 132, 132, 0.902381) 53%, rgba(91, 89, 90, 0.978011) 97%);
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+.tribunas {
+  background-image: url(../media/fondotribuna.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.contactP {
+  width: 50%;
+}
+
+.contact {
+  text-align: center;
+  width: 80%;
+  max-width: 100%;
+  padding-top: 25px;
+  -webkit-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+  background: rgba(8, 8, 8, 0.8);
+  margin-left: 60px;
+}
+
+.contact h2 {
+  font-family: "Noto Sans SC", sans-serif;
+  color: #fff;
+}
+
+.txt {
+  display: block;
+  padding: 5px;
+  width: 100%;
+  margin: 20px 0px;
+  font-size: 15px;
+  font-family: "Noto Sans SC", sans-serif;
+  color: #fff;
+}
+
+.txt2 {
+  display: block;
+  width: 100%;
+  font-family: "Noto Sans SC", sans-serif;
+  color: #fff;
+  padding: 2px;
+}
+
+.reserv {
+  margin-top: auto;
+  font-family: "Noto Sans SC", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+.consult {
+  text-align: center;
+  width: 50%;
+}
+
+.formEstilo {
+  width: 80%;
+  max-width: 100%;
+  padding-top: 25px;
+  -webkit-box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+  background: rgba(8, 8, 8, 0.8);
+}
+
+.formEstilo textarea {
+  resize: none;
+}
+
+.formInfo {
+  text-align: center;
+  margin-top: 0;
+  color: #fff;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+.formula,
+.enviar {
+  display: block;
+  padding: 20px;
+  width: 100%;
+  margin: 30px 0px;
+  font-size: 15px;
+  border: none;
+}
+
+.enviar {
+  background-color: #000;
+  border: 0;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-bottom: 0;
+  opacity: 0.7;
+  -webkit-transition: 0.8s ease-out;
+  transition: 0.8s ease-out;
+  color: #fff;
+}
+
+.enviar:hover {
+  opacity: 1;
+  border-radius: 0;
+}
+
+@media (max-width: 600px) {
+  .tribunas {
+    height: 200vh;
+  }
+  .contactP {
+    text-align: center;
+    width: 90%;
+    max-width: 100%;
+    padding-top: 10px;
+    background: transparent;
+  }
+  .consult {
+    text-align: center;
+    width: 90%;
+    max-width: 100%;
+    padding-top: 10px;
+    background: transparent;
+  }
+  .formEstilo {
+    text-align: center;
+    width: 80%;
+    max-width: 100%;
+    padding-top: 10px;
+    margin-left: 60px;
+    margin-top: -170px;
+  }
+}
+
+@media (max-width: 1900px) {
+  .datosInfo {
+    padding: 0px;
+    height: 100%;
+  }
+  .row {
+    margin: 0;
+  }
+  .tribunas {
+    height: 120vh;
+  }
+}
+
+@media (max-width: 1000px) {
+  .principio {
+    height: auto;
+  }
+  .margenBTN {
+    margin-left: 10%;
+  }
+  .complejo {
+    padding: 0px;
+  }
+  .info {
+    padding: 0px;
+  }
+  .datosInfo {
+    padding: 0px;
+    height: 100%;
+  }
+  .navbar-brand {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .navbar-toggler {
+    border-color: black;
+  }
+  .contactoEntero {
+    padding-left: 0;
+  }
+  .grid-container {
+    display: block;
+    margin-left: 0;
+  }
+  .grid-container-torneos {
+    display: block;
+    margin-left: 0;
+  }
+  .torneoCurso {
+    margin-left: 0;
+  }
+  .torneoProximo {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 445px) {
+  .knowmore-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .margenBTN {
+    margin-left: 0px;
+  }
+  .complejo {
+    padding: 0px;
+  }
+  .info {
+    padding: 0px;
+  }
+  .datosInfo {
+    padding: 0px;
+    height: 100%;
+  }
+  .navbar-brand {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .custom-toggler.navbar-toggler {
+    border-color: black;
+  }
+  .fondoP .texto h1 {
+    font-size: 3rem;
+  }
+  .contactoEntero {
+    padding-left: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contactoDatos {
+    margin-right: 0;
+  }
+  .contactoForm {
+    margin-left: -5%;
+    padding: 0;
+  }
+  .frameResp {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+  .datosInfo {
+    height: 100%;
+  }
+  .seccion1 {
+    height: 100%;
+  }
+  .tribunas {
+    height: 160vh;
+  }
+  .consult {
+    margin-top: 55px;
+  }
+}
+
+@media (max-width: 100px) {
+  .seccion1 {
+    height: 100vh;
+  }
+}
 /*# sourceMappingURL=estilo.css.map */
